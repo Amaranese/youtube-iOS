@@ -25,7 +25,7 @@ class TabBarView: UIView, UICollectionViewDelegateFlowLayout, UICollectionViewDa
             self.layoutIfNeeded()
             self.collectionView.reloadData()
         }
-    }
+    } 
     
     //MARK: Delegates
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
