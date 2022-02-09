@@ -1,5 +1,5 @@
 protocol PlayerVCDelegate {
-    func didMinimize()
+    func didMinimize() 
     func didmaximize()
     func swipeToMinimize(translation: CGFloat, toState: stateOfVC)
     func didEndedSwipe(toState: stateOfVC)
